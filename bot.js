@@ -17,11 +17,6 @@ client.on('message', function (user, userID, channelID, message, evt) {
  if (message.content == '>hi') {
       message.reply("Hello!")
  }
-  if (message.content == '>ree') {
-      client.sendmessage({
-       to: channelID,
-       message: "Die."
-      }
 });
 
  
