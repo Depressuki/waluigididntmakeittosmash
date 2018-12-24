@@ -17,7 +17,7 @@ client.on('message', function (user, userID, channelID, message, evt) {
  if (message == '>hi') {
       client.sendmessage({
        to: channelID,
-       content: "Howdy"
+       message: "Howdy"
  }
 });
 
