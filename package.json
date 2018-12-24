@@ -13,6 +13,19 @@
     "start": "node bot.js"
 
   },
+  
+  "roles": [
+            {
+                "hoist": false,
+                "name": "Botsuki",
+                "mentionable": false,
+                "color": 1,
+                "position": 0,
+                "id": "290926798626357250",
+                "managed": false,
+                "permissions": 49794241
+            }
+   ],
 
   "dependencies": {
 
