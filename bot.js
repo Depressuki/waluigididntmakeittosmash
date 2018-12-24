@@ -11,14 +11,10 @@ client.on('ready', () => {
 });
 
  
+client.on('message', message => {
 
-client.on('message', function (user, userID, channelID, message, evt) {
-
- if (message == '>hi') {
-      client.sendmessage({
-       to: channelID,
-       message: "Howdy"
- }
+ if (message.content == '>hi') {
+      message.reply("Gay boy, sup")
 });
 
  
