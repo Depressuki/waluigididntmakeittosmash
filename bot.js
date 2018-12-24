@@ -14,8 +14,10 @@ client.on('ready', () => {
 
 client.on('message', function (user, userID, channelID, message, evt) {
 
- if (message.content == '>hi') {
-      message.reply("Hello!")
+ if (message == '>hi') {
+      client.sendmessage({
+       to: channelID,
+       content: "Howdy"
  }
 });
 
