@@ -18,7 +18,7 @@
             {
                 "hoist": false,
                 "name": "Botsuki",
-                "mentionable": false,
+                "mentionable": true,
                 "color": 1,
                 "position": 0,
                 "id": "290926798626357250",
