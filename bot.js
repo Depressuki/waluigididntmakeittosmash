@@ -14,7 +14,7 @@ client.on('ready', () => {
 client.on('message', message => {
 
  if (message.content == '>hi') {
-      message.reply("Gay boy, sup")
+      message.channel.send("hm")
 });
 
  
